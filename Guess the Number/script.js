@@ -5,7 +5,6 @@ const allGuesses = document.querySelector('.all-guesses');
 const submitBtn = document.querySelector('.submit-btn');
 const startGameBtn = document.querySelector('.start-game')
 
-
 function iife (){
     const allGuessesArray = [];
 
@@ -32,6 +31,7 @@ form.addEventListener('submit', (e)=> {
     form.reset()
 })
 
+    
 startGameBtn.addEventListener('click', ()=>{
     result.innerText = '';
     allGuesses.innerText = '';
