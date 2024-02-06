@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading {
+    font-size:2.5rem ;
+    margin-top: 15px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background: #f2cc8f;
+}
+.para{
+    margin: 10px;
+    font-size: 1.3rem;
+
+}
+#input{
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    width: 13rem;
+    padding: 5px 2px 5px 5px ;
+    border: 1px solid rgb(182, 177, 177);
+}
+.btn{
+    padding: 10px 15px;
+    background: #81b29a;
+    border: none;
+    border: 1px solid grey; 
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.start-game:disabled{
+    cursor: not-allowed;
+}
+.message{
+    margin: 12px;
+    font-size: 1.4rem;
+}
+.all-guesses{
+    margin: 12px; 
+    font-size: 1.3rem;
+}

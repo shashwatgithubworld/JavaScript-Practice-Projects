@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess the Number : Shashwat</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1 class="heading">Guess the Number</h1>
+    <p class="para">Enter a Guess between 0 to 100</p>
+    <form>
+        <input type="number" id="input" placeholder="Enter a number" max="100" min="0" required>
+       <div>
+        <button class="submit-btn btn">Submit</button>
+        <button type="button" disabled class="start-game btn ">Start Game</button>
+       </div>
+    </form>
+    <p class="message"></p>
+    <p class="all-guesses"></p>
+
+  </body>
+</html>
