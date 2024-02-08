@@ -1,6 +1,5 @@
 
 const input = document.querySelector("input");
-
 const upperCaseOutput = document.querySelector("#uppercase span");
 const lowerCaseOutput = document.querySelector("#lowercase span");
 const camelCaseOutput = document.querySelector("#camelcase span");
