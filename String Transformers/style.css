@@ -7,13 +7,13 @@
 body{
     background: #edede9;
 }
-.heading{
-    text-align: center;
-    margin: 10px 0 3px 0;
-}
 main{
     max-width: 1200px;
     margin: 0 auto;
+}
+.heading{
+    text-align: center;
+    margin: 10px 0 3px 0;
 }
 input{
     width: 90%;
