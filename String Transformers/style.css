@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background: #edede9;
+}
+.heading{
+    text-align: center;
+    margin: 10px 0 3px 0;
+}
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+input{
+    width: 90%;
+    margin-bottom: 0.7rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
+.transformed-ouput{
+    width: 90%;
+    font-size: 1.2rem;
+    margin: 1.5rem 0;
+    padding: 1rem;
+    background-color: #d5bdaf;
+    position: relative;
+}
+.transformed-ouput label{
+    font-size: 0.75rem;
+    position: absolute;
+    top: -0.70rem;
+    left: 1rem;
+    background-color: black;
+    color: white;
+    padding: 0.25rem;
+}
