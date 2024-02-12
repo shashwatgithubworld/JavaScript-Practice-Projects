@@ -44,7 +44,6 @@ function changeFullDarkMode (){
     containerDarkModeCheckBox.checked = fullDarkModeCheckBox.checked
 };
 
-
 function changeContainedDarkMode (){
     // if(containerDarkModeCheckBox.checked){
     //     container.classList.add('dark')
