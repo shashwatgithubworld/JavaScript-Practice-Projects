@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+body.dark{
+    background-color: rgb(22, 22, 22);
+    color: rgb(202, 201, 201);
+}
+.container.dark{
+    background-color: rgb(22, 22, 22);
+    color: rgb(202, 201, 201);  
+}
+
+.headline{
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+.dark-mode-body{
+    margin-top: 10px;
+    padding: 30px 20px;
+}
+.container-dark-mode{
+    padding-left: 55px;
+    margin: 5px;
+}
+.container{
+    border: 1px solid blue;
+    padding: 32px;
+    margin: 0 55px;
+    background-color: white;
+    color: black;
+}
