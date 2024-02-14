@@ -1,3 +1,4 @@
+
 # My JavaScript Learning Projects
 
 ## This repository contains a collection of projects, I developed while learning JavaScript. Each project represents a step in my learning journey, and I'm excited to share them with the community.
