@@ -43,7 +43,7 @@ function autoType(wordsList, element) {
     if (wordIndex === wordsList.length) {
       wordIndex = 0;
     }
-  }, 100);
+  }, 150);
 }
 
 
