@@ -1,6 +1,7 @@
 
 const span = document.querySelector("h1 span");
 
+// We can change according to profile ....
 const wordsList = [
   "Developer..",
   "Programer",
